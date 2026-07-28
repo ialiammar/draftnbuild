@@ -77,13 +77,13 @@ export default function Process() {
 
         {/* Heading */}
         <div className="mx-auto max-w-xl text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-[var(--orange)]">
+          <p className="font-mono-brand text-[11px] font-semibold uppercase tracking-[0.35em] text-[var(--orange)] sm:text-[12.5px]">
             A Frictionless Editing Experience
           </p>
-          <h2 className="mt-3 text-3xl font-black tracking-tight sm:text-4xl">
+          <h2 className="mt-3 font-display text-[1.6rem] font-black uppercase leading-[1.05] tracking-tight sm:text-[2.6rem]">
             A Simple Editing Workflow
           </h2>
-          <p className="mt-4 text-sm opacity-70">
+          <p className="mt-4 max-w-md mx-auto text-[14px] leading-relaxed opacity-60 sm:text-[15px]">
             No chaotic Slack threads. No endless revision loops.
             Just a simple, transparent workflow built to deliver publish-ready edits on schedule.
           </p>

@@ -27,7 +27,7 @@ export default function Home() {
               Edit · Grade · Deliver
             </span>
             <h1 className="my-4 font-display text-[2.2rem] font-black uppercase leading-[0.96] tracking-tight sm:text-[3.6rem] lg:text-[4.7rem]">
-              We Edit.
+              We Edit.<br />
               <span className="text-[var(--orange)]">You Scale.</span>
             </h1>
             <p className="mb-6 max-w-[460px] text-[15px] leading-relaxed text-[var(--ink-soft)] sm:mb-8 sm:text-[17px]">
@@ -136,7 +136,7 @@ export default function Home() {
               What we do
             </span>
             <h2 className="mt-3 font-display text-[1.6rem] font-black uppercase leading-[1.05] tracking-tight sm:mt-3.5 sm:text-[2.6rem]">
-              One craft, three formats
+              Every Format. One Creative Team.
             </h2>
           </div>
           <ServiceGrid />
@@ -151,7 +151,7 @@ export default function Home() {
               Short-form reels
             </span>
             <h2 className="mt-3 font-display text-[1.6rem] font-black uppercase leading-[1.05] tracking-tight sm:mt-3.5 sm:text-[2.6rem]">
-              Recent cuts
+              Recent Work
             </h2>
           </div>
           <div className="mb-6 sm:mb-8">
@@ -202,7 +202,8 @@ export default function Home() {
         <div className="mx-auto flex max-w-[1280px] flex-col items-start gap-6 rounded-3xl bg-[var(--ink)] px-6 py-10 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between sm:gap-8 sm:px-14 sm:py-14">
           <div className="max-w-[580px]">
             <h2 className="font-display text-[1.75rem] font-black uppercase leading-[1.08] tracking-tight text-white sm:text-[2.6rem]">
-              Stop Editing. <span className="text-[var(--teal)]">Start Scaling.</span>
+              Stop Editing.<br />
+              <span className="text-[var(--teal)]">Start Scaling.</span>
             </h2>
             <p className="mt-3 text-sm font-medium leading-relaxed text-white/80 sm:text-base">
               Partner with Draft n Build and get publish-ready edits delivered consistently.
@@ -220,7 +221,7 @@ export default function Home() {
               </svg>
               Book an Appointment
             </a>
-            <span className="font-mono-brand text-[11px] text-white/50 sm:text-[12px]">Usually replies within 24 hours</span>
+
           </div>
         </div>
       </section>
