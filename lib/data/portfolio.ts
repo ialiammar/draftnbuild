@@ -22,6 +22,17 @@ export interface PortfolioItem {
 export const portfolioItems: PortfolioItem[] = [
   // ─── LONG-FORM ────────────────────────────────────
   {
+    id: 'long-3',
+    title: 'How to Instantly Tread Water',
+    category: 'long-form',
+    description: 'Step-by-step swimming tutorial focusing on instructional pacing and key engagement hooks.',
+    client: 'Caribe Swim',
+    youtubeId: 'h06xvhA7Hfc',
+    thumbnailGradient: 'from-[#0ea5e9] to-[#0369a1]',
+    tags: ['Tutorial', 'Swimming'],
+    aspectRatio: 'landscape',
+  },
+  {
     id: 'long-4',
     title: 'How to Instantly Tread Water',
     category: 'long-form',

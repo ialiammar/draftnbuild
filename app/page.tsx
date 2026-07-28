@@ -27,11 +27,11 @@ export default function Home() {
               Edit · Grade · Deliver
             </span>
             <h1 className="my-4 font-display text-[2.2rem] font-black uppercase leading-[0.96] tracking-tight sm:text-[3.6rem] lg:text-[4.7rem]">
-              Edits built to<br />keep people<br />
-              <span className="text-[var(--orange)]">watching</span>
+              We Edit.
+              <span className="text-[var(--orange)]">You Scale.</span>
             </h1>
             <p className="mb-6 max-w-[460px] text-[15px] leading-relaxed text-[var(--ink-soft)] sm:mb-8 sm:text-[17px]">
-              Draft n Build cuts gaming, documentary, and short-form video into stories that hold attention — from first frame to final render.
+              Partner with a dedicated creative team that understands pacing, hooks, and retention—so you can focus on creating, not cutting.
             </p>
             {/* CTA buttons — minimum 48px height for mobile tap targets */}
             <div className="mb-8 flex flex-wrap items-center gap-3 sm:mb-12">
@@ -45,7 +45,7 @@ export default function Home() {
                 href="/portfolio/short-form"
                 className="inline-flex h-12 cursor-pointer items-center rounded-full border-2 border-[var(--ink)] px-6 text-[14px] font-semibold transition-all hover:scale-105 hover:bg-[var(--ink)] hover:text-[var(--bg)] active:scale-95 sm:text-[14.5px]"
               >
-                See the Work
+                See our Work
               </Link>
             </div>
             <div className="w-fit rounded-2xl bg-[var(--ink)] px-5 py-5 sm:px-6 sm:py-6">
@@ -200,9 +200,14 @@ export default function Home() {
       {/* CTA BANNER */}
       <section id="contact" className="px-5 pb-16 sm:px-8 sm:pb-24">
         <div className="mx-auto flex max-w-[1280px] flex-col items-start gap-6 rounded-3xl bg-[var(--ink)] px-6 py-10 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between sm:gap-8 sm:px-14 sm:py-14">
-          <h2 className="max-w-[520px] font-display text-[1.5rem] font-black uppercase leading-[1.02] tracking-tight text-[var(--bg)] sm:text-[2.7rem]">
-            Got footage?<br />Let&apos;s cut it <span className="text-[var(--teal)]">together</span>.
-          </h2>
+          <div className="max-w-[580px]">
+            <h2 className="font-display text-[1.75rem] font-black uppercase leading-[1.08] tracking-tight text-white sm:text-[2.6rem]">
+              Stop Editing. <span className="text-[var(--teal)]">Start Scaling.</span>
+            </h2>
+            <p className="mt-3 text-sm font-medium leading-relaxed text-white/80 sm:text-base">
+              Partner with Draft n Build and get publish-ready edits delivered consistently.
+            </p>
+          </div>
           <div className="flex flex-col items-start gap-3">
             <a
               href="https://wa.me/923259735356?text=Hi%20Ali%2C%20I%27d%20like%20to%20talk%20about%20a%20video%20editing%20project."
@@ -215,7 +220,7 @@ export default function Home() {
               </svg>
               Book an Appointment
             </a>
-            <span className="font-mono-brand text-[11px] text-[var(--ink-faint)] sm:text-[12px]">Usually replies within 24 hours</span>
+            <span className="font-mono-brand text-[11px] text-white/50 sm:text-[12px]">Usually replies within 24 hours</span>
           </div>
         </div>
       </section>

@@ -21,7 +21,7 @@ export default function ServiceGrid() {
         index="01"
         href="/portfolio/long-form"
         title="Long-Form Editing"
-        description="Gaming, documentary, and educational content cut for pacing, hooks, and full-video retention."
+        description="From YouTube documentaries to podcast cuts, we structure your raw footage into seamless narratives that drive watch time and build subscriber loyalty."
         variant="long-form"
         tiltOnHover={-1.5}
       />
@@ -29,7 +29,7 @@ export default function ServiceGrid() {
         index="02"
         href="/portfolio/short-form"
         title="Short-Form Editing"
-        description="Reels, Shorts, and TikTok-style cuts built around the first three seconds."
+        description="Short Form Content engineered to stop the scroll. We optimize every frame of the first 3 seconds so your message actually gets heard."
         variant="short-form"
         tiltOnHover={1.5}
       />
@@ -37,7 +37,7 @@ export default function ServiceGrid() {
         index="03"
         href="/portfolio/motion-graphics"
         title="Motion Graphics"
-        description="Titles, lower-thirds, and product-explainer animation that clarify instead of decorate."
+        description="Instead of adding alot of Motion we Explain your Business that actually generate Leads"
         variant="motion-graphics"
         tiltOnHover={-1.5}
       />

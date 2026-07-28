@@ -12,30 +12,30 @@ import {
 const STEPS = [
   {
     number: '01',
-    title: 'Brief',
+    title: 'Brief & Raw Assets',
     description:
-      'Send your footage, references and explain the objective of the video. Every successful edit starts with understanding the goal.',
+      'Upload your raw files, link your style references, and tell us your vision. We take it from there—no micromanagement needed.',
     icon: FolderOpen,
   },
   {
     number: '02',
-    title: 'Rough Cut',
+    title: 'The Draft Cut',
     description:
-      'I build the structure, pacing and storytelling first. Hooks, retention and editing rhythm are established before effects.',
+      'Receive your tailored draft framed for narrative pacing, audio balance, and visual style.',
     icon: Scissors,
   },
   {
     number: '03',
-    title: 'Review',
+    title: 'Refine & Polish',
     description:
-      'You review the draft and provide timestamp feedback. Motion graphics, subtitles and polish are refined.',
+      'Review the edit and request adjustments. We refine motion graphics, color grade, and sound design until it’s perfect.',
     icon: MessageSquare,
   },
   {
     number: '04',
-    title: 'Delivery',
+    title: 'Final Render',
     description:
-      'Final exports are optimized for every platform and delivered in the requested formats.',
+      'Receive full-resolution master exports formatted perfectly for YouTube, Instagram, or TikTok.',
     icon: Rocket,
   },
 ];
@@ -78,14 +78,14 @@ export default function Process() {
         {/* Heading */}
         <div className="mx-auto max-w-xl text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-[var(--orange)]">
-            HOW IT WORKS
+            A Frictionless Editing Experience
           </p>
           <h2 className="mt-3 text-3xl font-black tracking-tight sm:text-4xl">
             A Simple Editing Workflow
           </h2>
           <p className="mt-4 text-sm opacity-70">
-            No confusing process. No endless revisions.
-            Every project follows the same proven pipeline.
+            No chaotic Slack threads. No endless revision loops.
+            Just a simple, transparent workflow built to deliver publish-ready edits on schedule.
           </p>
         </div>
 
@@ -119,16 +119,14 @@ export default function Process() {
                   style={{ padding: '0 8px', minWidth: 48, minHeight: 48 }}
                 >
                   <div
-                    className={`z-10 flex h-6 w-6 items-center justify-center rounded-full border transition-all duration-300 ${
-                      active >= index
-                        ? 'border-[var(--orange)] bg-[var(--orange)] shadow-[0_0_10px_rgba(249,115,22,0.3)]'
-                        : 'border-current/20 bg-[var(--bg)] group-hover:border-current/40'
-                    }`}
+                    className={`z-10 flex h-6 w-6 items-center justify-center rounded-full border transition-all duration-300 ${active >= index
+                      ? 'border-[var(--orange)] bg-[var(--orange)] shadow-[0_0_10px_rgba(249,115,22,0.3)]'
+                      : 'border-current/20 bg-[var(--bg)] group-hover:border-current/40'
+                      }`}
                   />
                   <span
-                    className={`mt-2 text-xs font-bold transition-colors duration-300 ${
-                      active === index ? 'text-[var(--orange)]' : 'opacity-40 group-hover:opacity-80'
-                    }`}
+                    className={`mt-2 text-xs font-bold transition-colors duration-300 ${active === index ? 'text-[var(--orange)]' : 'opacity-40 group-hover:opacity-80'
+                      }`}
                   >
                     {item.number}
                   </span>
