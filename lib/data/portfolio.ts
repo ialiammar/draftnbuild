@@ -97,7 +97,7 @@ export const portfolioItems: PortfolioItem[] = [
     aspectRatio: 'landscape',
   },
   {
-    id: 'long-3',
+    id: 'long-local-3',
     title: 'Long-Form Edit 3',
     category: 'long-form',
     description: 'Long-form video edit.',
@@ -173,9 +173,9 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     id: 'short-4',
-    title: 'Short-Form Reel 4',
+    title: 'Technology Explainer Reel',
     category: 'short-form',
-    description: 'Reel / TikTok-style edit.',
+    description: 'A short-form technology edit combining cutout imagery, captions, and motion.',
     videoSrc: '/videos/short 4.mp4',
     thumbnailGradient: 'from-[#FF5A1F] to-[#0FAFA0]',
     tags: ['Short-Form'],

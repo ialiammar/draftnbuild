@@ -3,10 +3,10 @@ import VideoGrid from '@/components/VideoGrid';
 import { getPortfolioByCategory } from '@/lib/data/portfolio';
 
 export default function MotionGraphicsPage() {
-  const items = getPortfolioByCategory('motion-graphics');
+  const items = getPortfolioByCategory('motion-graphics').filter(item => item.videoSrc || item.youtubeId);
 
   return (
-    <main className="px-5 py-16 sm:px-8 sm:py-20">
+    <main id="main-content" className="px-5 py-16 sm:px-8 sm:py-20">
       <div className="mx-auto max-w-[1280px]">
         <Link href="/" className="mb-6 inline-flex h-10 items-center font-mono-brand text-[13px] text-[var(--ink-soft)] hover:text-[var(--ink)] sm:mb-8">
           ← Back home
@@ -25,7 +25,7 @@ export default function MotionGraphicsPage() {
           <VideoGrid items={items} />
         ) : (
           <p className="text-[14px] text-[var(--ink-faint)]">
-            No projects added yet — add one in lib/data/portfolio.ts.
+            Have a motion project in mind? Get in touch to discuss your product, visual direction, and scope.
           </p>
         )}
       </div>
