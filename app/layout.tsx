@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import { VideoModalProvider } from '@/components/VideoModal';
 
 export const metadata: Metadata = {
-  title: 'Draft n Build — Video Editing Agency',
+  title: 'Draft n Build — Social Content for Ecommerce & Retail',
   description:
-    'Edits built to keep people watching. Gaming, documentary, and B2B video editing, motion graphics, and short-form cuts.',
+    'A founder-led creative studio for ecommerce and retail brands. Content ideas, scripts, video editing, and scheduling, led by Ali Ammar.',
 };
 
 export const viewport: Viewport = {

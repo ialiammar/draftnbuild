@@ -1,6 +1,6 @@
 export default function DigitalProductsPage() {
   return (
-    <main className="relative flex min-h-[85vh] items-center justify-center overflow-hidden bg-[var(--ink)]">
+    <main id="main-content" className="relative flex min-h-[85vh] items-center justify-center overflow-hidden bg-[var(--ink)]">
       {/* LEFT HALF-CIRCLE */}
       <div
         className="animate-spin-slow-left pointer-events-none absolute left-0 top-1/2 h-[560px] w-[560px] rounded-full opacity-70 blur-[2px]"

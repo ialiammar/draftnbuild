@@ -6,7 +6,7 @@ export default function LongFormPage() {
   const items = getPortfolioByCategory('long-form');
 
   return (
-    <main className="px-5 py-16 sm:px-8 sm:py-20">
+    <main id="main-content" className="px-5 py-16 sm:px-8 sm:py-20">
       <div className="mx-auto max-w-[1280px]">
         <Link href="/" className="mb-6 inline-flex h-10 items-center font-mono-brand text-[13px] text-[var(--ink-soft)] hover:text-[var(--ink)] sm:mb-8">
           ← Back home
