@@ -333,3 +333,16 @@ html { scroll-padding-top: 100px; }
 .founder-art-bottom { z-index: 2; background: var(--ink); border-top-color: #ffffff30; padding: 15px 0 0; }
 @media (max-width: 1100px) { .portrait-composition { width: 290px; height: 355px; left: 3%; top: 90px; }.agency-home h1 { font-size: 6.5vw; }.hero-portrait { width: 118%; left: -10%; }.portrait-rec { font-size: 6px; }.portrait-nameplate { font-size: 7px; }.portrait-nameplate span:last-child { font-size: 6px; } }
 @media (max-width: 760px) { .agency-home h1 { font-size: clamp(44px,10.5vw,80px); letter-spacing: -.065em; }.portrait-composition { width: 270px; height: 345px; left: calc(50% - 135px); top: 60px; }.hero-portrait { width: 116%; left: -8%; }.scene-caption { font-size: 6px; }.portrait-timeline { left: 0; }.scene-note { right: 0; }.agency-brand { gap: 13px; }.brand-mark { width: 28px; height: 28px; border-radius: 7px; }.brand-mark i { width: 8px; height: 8px; } }
+
+/* Keep content and navigation within narrow phone viewports. */
+.hero-copy { min-width: 0; }
+@media (max-width: 760px) {
+  .hero-layout { grid-template-columns: minmax(0, 1fr); }
+  .agency-home h1 { font-size: clamp(34px, 10.3vw, 78px); }
+}
+@media (max-width: 400px) {
+  .portrait-composition { width: 240px; height: 325px; left: calc(50% - 120px); top: 65px; }
+  .portrait-rec { font-size: 5.5px; }
+  .scene-caption { font-size: 5px; gap: 10px; }
+}
+@media (max-width: 360px) { .nav-cta { display: none; } .nav-toggle { margin-left: auto; } }
